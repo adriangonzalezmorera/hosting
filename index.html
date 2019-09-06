@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<!--<link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">-->
+	<title>Adrián González Morera</title>
+	<link rel="stylesheet" href="bridge.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Adrian Gonzalez Morera: Ingeniero en Sistemas Computacionales y Locutor Comercial en Costa Rica">
+</head>
+
+<body>
+
+<!--***********ENTRADA DEL USUARIO PARA CHECKEAR MENU HAMBURGUESA************-->
+<input type="checkbox" name="chkb_navegacion_uno" id="chkb_navegacion_uno">
+
+<!--***********CONTENEDOR PRINCIPAL DEL HOME************-->
+<div class="contenedor">
+
+	<div class="hide">
+		<a href="#navegacion_dos" class="des"><div>Soporte Informático</div></a>
+		<a href="#navegacion_dos" class="des"><div>Diseño Web</div></a>
+		<a href="#navegacion_dos" class="des"><div>Asesoría Informática</div></a>
+		<a href="#navegacion_dos" class="des"><div>Voice Over</div></a>
+		<a href="#navegacion_dos" class="des"><div>Animación & Producción</div></a>
+		<a href="#navegacion_dos" class="des"><div>Eventos Corpotativos</div></a>
+	</div>
+
+	<!--***********HEADER CON MENU HAMBURGUESA************-->
+	<header>
+
+		<h1></h1>
+
+		<section class="navegacion_uno">
+
+			<div class="menu">
+				<label for="chkb_navegacion_uno">
+					<span></span>
+				</label>
+			</div>
+
+		</section>
+
+	</header>
+
+	<!--**********************HOME***************************** -->
+
+	<div id="home">
+
+		<div id="circulo">
+
+			<img id="circulo_img" src="recursos/home/logo_agm5.png" alt="Vaya al Menu Principal">
+
+		</div>
+
+		<div id="nombre">
+
+			<img id="nombre_img" src="recursos/home/logo_nombre.png" alt="Vaya al Menu Principal">
+			
+		</div>
+
+		<section class="redes_sociales">
+
+			<a href="https://www.facebook.com/adriangonzalezmorera" target="_blanck"><img id="logo_facebook" src="recursos/home/logos_redes/logo_fb.png" alt="Visitinos en Facebook"></a>
+
+			<a href="https://www.instagram.com/adriangonzalezmorera" target="_blanck"><img id="logo_instagram" src="recursos/home/logos_redes/logo_int.png" alt="Visitinos en Instagram"></a>
+
+			<a href="https://www.behance.net/adriangonzalezmorera" target="_blanck"><img id="logo_behance" src="recursos/home/logos_redes/logo_be.png" alt="Visitinos en Behance"></a>
+
+			<a href="https://www.soundcloud.com/adriangonzalezmorera" target="_blanck"><img id="logo_soundcloud" src="recursos/home/logos_redes/logo_sc.png" alt="Visitinos en Sound Cloud"></a>
+
+			<a href="https://www.youtube.com/adriangonzalezmorera" target="_blanck"><img id="logo_youtube" src="recursos/home/logos_redes/logo_yt.png" alt="Visitinos en Youtube"></a>
+
+		</section>
+
+	</div>
+
+	<!--**********************FOOTER***************************** -->
+	<footer>
+
+		<nav class="navegacion_dos">
+
+			<!--***********Lista de Pestanas de Navegacion DOS************-->
+			<ul>
+				<li>
+					<p id="pestaña_cv">Quién Soy</p>
+				</li>
+
+				<li class="sep"></li>
+
+				<li>
+					<p id="pestaña_portafolio">Portafolio</p>
+				</li>
+
+				<li class="sep"></li>
+
+				<li>
+					<p id="pestaña_responsabilidad">Sintonicémonos</p>
+				</li>
+
+				<li class="sep"></li>
+
+				<li>
+					<p id="pestaña_cotizaciones">Social</p>
+				</li>
+			</ul>
+			<!--<div id="separador_uno"></div>
+			<div id="separador_dos"></div>
+			<div id="separador_tres"></div>-->
+		</nav>
+
+		<p class="copyright"> Adrián González Morera @ Copyrights 2019</p>
+
+	</footer>
+
+	<!--***********EVENTO DE LLAMADO A DIRECCIONAR A OTRA SECCION EN LA PAGINA************-->
+	<script>
+		/*btn = document.querySelectorAll('.des');
+		for (var i = 0; i < btn.length; i++) {
+			btn[i].addEventListener('click',()=>{
+			document.querySelector('#chkb_navegacion_uno').checked = false;
+		})
+		}*/
+		document.querySelector('#des').addEventListener('click',()=>{
+			document.querySelector('#chkb_navegacion_uno').checked = false;
+		})
+	</script>
+
+</div>
+
+</body>
+
+</html>

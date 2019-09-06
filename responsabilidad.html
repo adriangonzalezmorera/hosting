@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<!--<link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">-->
+	<title>Adrián González Morera | Social</title>
+	<link rel="stylesheet" href="bridge.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Adrian Gonzalez Morera: Ingeniero en Sistemas Computacionales y Locutor Comercial en Costa Rica">
+</head>
+
+<!--PROGRAMACION DEL BODY DE LA PAGINA-->
+<body>
+
+<!--***********ENTRADA DEL USUARIO PARA CHECKEAR MENU HAMBURGUESA************-->
+<input type="checkbox" name="chkb_navegacion_uno" id="chkb_navegacion_uno">
+
+<!--CONTENEDOR PRINCIPAL DE LA PAGINA-->
+<div class="contenedor">
+
+	<div class="hide">
+		<a href="#navegacion_dos" class="des" id="des"><div>Soporte Informático</div></a>
+		<a href="#navegacion_dos" class="des" id="des"><div>Diseño Web</div></a>
+		<a href="#navegacion_dos" class="des" id="des"><div>Asesoría Informática</div></a>
+		<a href="#navegacion_dos" class="des" id="des"><div>Voice Over</div></a>
+		<a href="#navegacion_dos" class="des" id="des"><div>Animación & Producción</div></a>
+		<a href="#navegacion_dos" class="des" id="des"><div>Eventos Corpotativos</div></a>
+	</div>
+
+	<!--***********HEADER CON MENU HAMBURGUESA************-->
+	<header>
+
+		<section class="navegacion_uno">
+
+			<div class="menu">
+				<label for="chkb_navegacion_uno">
+					<span></span>
+				</label>
+			</div>
+
+		</section>
+
+		<img class="firma_responsive" src="recursos/it/logo_firma_responsive.png" alt="Adrián González Morera">
+
+	</header>
+
+	<!---------PROGRAMACION DE LAS SECCIONES DE LA PAGINA JUNTO A SUS ARTICULOS----------->
+	
+	<section id="section_imagenes_responsabilidad">
+
+		<div id="caja_imagenes_responsabilidad">
+
+			<div id="banner_section_imagenes_responsabilidad">
+				<img class="banner_hijos" src="recursos/responsabilidad/imagen_responsabilidad1.png" alt="Responsabilidad Social en Eventos">
+				<img class="banner_hijos" src="recursos/responsabilidad/imagen_responsabilidad2.jpg" alt="Responsabilidad Social en Eventos">
+				<img class="banner_hijos" src="recursos/responsabilidad/imagen_responsabilidad3.jpg" alt="Responsabilidad Social en Eventos">
+				<img class="banner_hijos" src="recursos/responsabilidad/imagen_responsabilidad4.jpg" alt="Responsabilidad Social en Eventos">
+				<img class="banner_hijos" src="recursos/responsabilidad/imagen_responsabilidad5.jpg" alt="Responsabilidad Social en Eventos">
+			</div>
+			
+		</div>
+
+	</section>
+
+
+	<div id="cintillo_responsabilidad">
+		
+		<img id="imagen_responsabilidad" src="recursos/responsabilidad/cintillo_responsabilidad.png">
+
+	</div>
+
+
+	<section id="section_contenido_responsabilidad">
+
+	<div id="caja_contenido_responsabilidad">
+
+		<p id="contenido_responsabilidad">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+
+	</div>
+
+	</section>
+
+<!--------------------PROGRAMACION DE LA SECCION DE REDES SOCIALES-------------------->
+	<section class="redes_sociales">
+
+			<a href="https://www.facebook.com/adriangonzalezmorera" target="_blanck"><img id="logo_facebook" src="recursos/home/logos_redes/logo_fb.png" alt="Visitinos en Facebook"></a>
+
+			<a href="https://www.instagram.com/adriangonzalezmorera" target="_blanck"><img id="logo_instagram" src="recursos/home/logos_redes/logo_int.png" alt="Visitinos en Instagram"></a>
+
+			<a href="https://www.behance.net/adriangonzalezmorera" target="_blanck"><img id="logo_behance" src="recursos/home/logos_redes/logo_be.png" alt="Visitinos en Behance"></a>
+
+			<a href="https://www.soundcloud.com/adriangonzalezmorera" target="_blanck"><img id="logo_soundcloud" src="recursos/home/logos_redes/logo_sc.png" alt="Visitinos en Sound Cloud"></a>
+
+			<a href="https://www.youtube.com/adriangonzalezmorera" target="_blanck"><img id="logo_youtube" src="recursos/home/logos_redes/logo_yt.png" alt="Visitinos en Youtube"></a>
+
+		</section>
+
+	<!--**********************FOOTER***************************** -->
+	<footer>
+
+		<nav class="navegacion_dos">
+
+			<!--***********Lista de Pestanas de Navegacion DOS************-->
+			<ul>
+				<li>
+					<p id="pestaña_cv">Quién Soy</p>
+				</li>
+
+				<li class="sep"></li>
+
+				<li>
+					<p id="pestaña_portafolio">Portafolio</p>
+				</li>
+
+				<li class="sep"></li>
+
+				<li>
+					<p id="pestaña_responsabilidad">Sintonicémonos</p>
+				</li>
+
+				<li class="sep"></li>
+
+				<li>
+					<p id="pestaña_cotizaciones">Social</p>
+				</li>
+			</ul>
+			
+		</nav>
+
+		<p class="copyright"> Adrián González Morera @ Copyrights 2019</p>
+
+	</footer>
+
+	<!--***********EVENTO DE LLAMADO A DIRECCIONAR A OTRA SECCION EN LA PAGINA************-->
+	<script>
+		/*btn = document.querySelectorAll('.des');
+		for (var i = 0; i < btn.length; i++) {
+			btn[i].addEventListener('click',()=>{
+			document.querySelector('#chkb_navegacion_uno').checked = false;
+		})
+		}*/
+		document.querySelector('#des').addEventListener('click',()=>{
+			document.querySelector('#chkb_navegacion_uno').checked = false;
+		})
+	</script>
+
+</div>
+
+</body>
+</html>

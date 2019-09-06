@@ -1,0 +1,32 @@
+/*-----------------------IMPORTACION DEL RESET--------------------------*/
+@import url('reset.css');
+/*-----------------------IMPORTACION ESTILOS DEL HEADER--------------------------*/
+@import url("style_header.css");
+
+/*-----------------------IMPORTACION ESTILOS DE REDES SOCIALES------------------*/
+@import url("style_social_media.css");
+
+/*-----------------------IMPORTACION ESTILOS DEL FOOTER--------------------------*/
+@import url("style_footer.css");
+
+/*-----------------------IMPORTACION ESTILOS DEL HOME--------------------------*/
+@import url("style.css");
+
+/*---------------IMPORTACION ESTILOS DE PAGINA SERVICIOS IT-------------------*/
+@import url("style_it.css");
+
+/*--------------------IMPORTACION ESTILOS DE PAGINA VOICE--------------------*/
+@import url("style_voice.css");
+
+/*------------IMPORTACION ESTILOS DE PAGINA QUIEN SOY Y COTICE-----------------*/
+@import url("style_cv.css");
+
+/*------------------IMPORTACION ESTILOS DE PAGINA PORTAFOLIO--------------------*/
+@import url("style_portafolio.css");
+
+/*------------------IMPORTACION DE PAGINA RESPONSABILIDAD-----------------------*/
+@import url("style_responsabilidad.css");
+@import url("solbrillante.css");
+/*------------------IMPORTACION DE VERSION RESPONSIVE-----------------------*/
+@import url("style_responsive.css");
+

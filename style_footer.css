@@ -1,0 +1,55 @@
+/*------------------FOOTER STYLES----------------------*/
+footer{
+	position: relative;
+	background: #FFD400;
+	width: 100%;
+	height: 100px;
+}
+
+.navegacion_dos{
+	width: 100%;
+	height: 50%;
+	position: relative;
+	color: black;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 20px;
+}
+
+.navegacion_dos ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.navegacion_dos ul li{
+	width: auto;
+	height: auto;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	font-size: 0.9em;
+	margin: 0 5px;
+}
+
+.navegacion_dos ul .sep{
+	height: 80%;
+	border: 0.5px solid #000;
+}
+
+.navegacion_dos ul li p{
+	height: 100%;
+
+}
+
+.copyright{
+	color: black;
+	font-size: 10px;
+	padding-top: 10px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}

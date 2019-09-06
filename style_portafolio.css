@@ -1,0 +1,344 @@
+@import url('reset.css');
+*{
+	padding: 0;
+	margin: 0;
+}
+
+/*body{
+	width: 100vw;
+	height: auto;
+
+}*/
+
+/*---------------------PROGRAMACION PAGINA HOME_MOVIL_414x736------------------*/
+#contenedor_portafolio{
+	position: relative;
+	background:black;
+	width:100vw;
+	height:auto;
+	overflow: hidden;
+}
+
+/*---------IMPORTACION AL STYLE_HEADER.CSS----------------------*/
+
+/*PROGRAMACION DE LAS DISTINTAS SECCIONES JUNTO A SU ARTICULOS*/
+
+/*---------------------------SECCION DEMOS--------------------------*/
+#section_demos{
+	position: relative;
+	background:white;
+	width:100%;
+	height:auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#caja_titulo_demos{
+	position: absolute;
+	width: 75%;
+	height: 100px;
+	background: #FFD400;
+	border-radius:0% 30px 0px 0%;
+	left:0;
+	z-index: 2;
+}
+
+#palabra_demos{
+	position: relative;
+	margin-left: 50px;
+	top: 20px;
+}
+
+#caja_contenido_demos{
+	/*position: relative;
+	width: 100%;
+	height: auto;
+	background: white;
+	margin-top: 80px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;*/
+
+		width: 100%;
+		height: auto;
+		margin-top: 120px;
+
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr 1fr;
+		/*grid-gap: 10px;
+		padding: 5px; */
+}
+
+#caja_contenido_demos1{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 5%;
+}
+
+#texto_demos1{
+	display: block;
+	color:#000;
+	width: 415px;
+	margin-top: 5%;
+}
+
+#caja_contenido_demos2{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 5%;
+}
+
+#texto_demos2{
+	display: block;
+	color:#000;
+	width: 415px;
+	margin-top: 5%;
+}
+
+#caja_contenido_demos3{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 5%;
+}
+
+#texto_demos3{
+	display: block;
+	color:#000;
+	width: 415px;
+	margin-top: 5%;
+}
+
+
+#caja_contenido_demos4{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 5%;
+}
+
+#texto_demos4{
+	display: block;
+	color:#000;
+	width: 415px;
+	margin-top: 5%;
+}
+
+
+/*------------------------SECCION PRODUCCIONES----------------------*/
+#section_producciones{
+	position: relative;
+	background: white;
+	width:100%;
+	height:auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 2%;
+}
+
+#caja_titulo_producciones{
+	position: absolute;
+	width: 75%;
+	height: 100px;
+	background: #FFD400;
+	border-radius:0% 30px 0px 0%;
+	left:0;
+	z-index: 2;
+	margin-top: 0px;
+}
+
+#palabra_producciones{
+	position: relative;
+	margin-left: 50px;
+	top: 40px;
+}
+
+#caja_contenido_producciones{
+	/*position: relative;
+	width: 100%;
+	height: auto;
+	background: white;
+	margin-top: 80px;
+	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;*/
+	width: 100%;
+	height: auto;
+	margin-top: 120px;
+
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	/*grid-gap: 10px;
+	padding: 5px; */
+}
+
+#caja_contenido_producciones1{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 5%;
+}
+
+#texto_producciones1{
+	display: block;
+	color:#000;
+	width: 415px;
+	margin-top: 5%;
+}
+
+#caja_contenido_producciones2{
+	display: block;
+	color:#000;
+	width: 415px;
+	margin-top: 5%;
+}
+
+#texto_producciones2{
+	display: block;
+	color:#000;
+	width: 415px;
+	margin-top: 5%;
+}
+
+#caja_contenido_producciones3{
+	display: block;
+	color:#000;
+	width: 415px;
+	margin-top: 5%;
+}
+
+#texto_producciones3{
+	display: block;
+	color:#000;
+	width: 415px;
+	margin-top: 5%;
+}
+
+
+#caja_contenido_producciones4{
+	display: block;
+	color:#000;
+	width: 415px;
+	margin-top: 5%;
+}
+
+#texto_producciones4{
+	display: block;
+	color:#000;
+	width: 415px;
+	margin-top: 5%;
+}
+
+/*------------------------------SECCION EVENTOS------------------------------*/
+#section_eventos_portafolio{
+	position: relative;
+	background: #000;
+	width:100%;
+	height:auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+	scroll-snap-type: mandatory;
+	scroll-snap-type: x mandatory;
+	flex-wrap: nowrap;
+	overflow-x: scroll;
+	z-index: 50;
+	
+}
+
+#caja_titulo_eventos_portafolio{
+	position: absolute;
+	width: 75%;
+	height: 100px;
+	background: #FFD400;
+	border-radius:0% 30px 0px 0%;
+	left:0;
+	z-index: 2;
+	margin-top: 20px;
+}
+
+#palabra_eventos{
+	position: relative;
+	margin-left: 50px;
+	top: 40px;
+}
+
+#caja_contenido_eventos_portafolio{
+	position: relative;
+	width: 100%;
+	height: auto;
+	background: white;
+	margin-top: 80px;
+	/*padding: 20px;*/
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#banner_section_eventos_portafolio{
+	width:500%;
+	height:auto;
+	overflow: hidden;
+	display: flex;
+	margin-top: 8%;
+	position: relative;
+}
+
+.banner_hijos{
+	width: 100%;
+	position: relative;
+	flex: none;
+	flex-flow: row nowrap;
+	background: url(recursos/portafolio/eventos_uno.jpg) no-repeat;
+	background-size: contain;
+	animation: fotos 10s infinite ease-in-out;
+}
+
+
+/*-------------------------PROGRAMACION Y PARAMETROS EN SECCION REDES SOCIALES-----------------*/
+
+/*--------------------------IMPORTACION AL STYLE_SOCIAL_MEDIA.CSS----------------------*/
+
+/*---------------------------IMPORTACION AL STYLE_FOOTER.CSS---------------------------*/
+
+/*
+------------------------------------------------------------
+	Animaciones
+------------------------------------------------------------
+*/
+@keyframes fotos {
+	0%{
+		left: 0%;
+	}
+	20%{
+		left: -100%;
+	}
+	40%{
+		left: -200%;
+	}
+	60%{
+		left: -300%;
+	}
+	80%{
+		left: -400%;
+	}
+	99.9999%{
+		left: -400%;
+	}
+	100%{
+		left: 0%;
+	}
+}

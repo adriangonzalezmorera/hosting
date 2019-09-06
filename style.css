@@ -1,0 +1,66 @@
+ @import url('reset.css');
+*{
+	padding: 0;
+	margin: 0;
+}
+
+	body{
+		width: 100vw;
+		height: auto;
+		overflow-x: hidden;
+		overflow-y: scroll;
+		background:#000;
+	}
+
+/*---------------------PROGRAMACION PAGINA HOME_MOVIL_414x736------------------*/
+#contenedor{
+	position: relative;
+	background:black;
+	width:100vw;
+	height:auto;
+	overflow: hidden;
+}
+
+/*---------IMPORTACION AL STYLE_HEADER.CSS----------------------*/
+
+
+/*-----------------------HOME STYLES--------------------------*/
+#home{
+	width: 100%;
+	height:auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#circulo{
+	width: 75vw;
+	height: 75vw;
+	border-radius: 50%;
+	border:2px solid #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	margin: 15px;
+}
+
+#circulo_img{
+	width:70vw;
+	display:flex;
+	border-radius:50%;
+}
+
+#nombre_img{
+	width:90vw;
+	display:flex;
+	margin: 15px;
+}
+/*---------IMPORTACION AL STYLE_SOCIAL_MEDIA.CSS----------------------*/
+
+/*---------IMPORTACION AL STYLE_FOOTER.CSS---------------------------*/
+
+
+
+

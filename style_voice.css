@@ -1,0 +1,200 @@
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+/*body{
+	width: 100vw;
+	height: auto;
+	
+	font-family:'PT Serif', serif;
+}*/
+
+/*---------------------PROGRAMACION PAGINA HOME_MOVIL_414x736------------------*/
+#contenedor_servicios_comunicacion{
+	position: relative;
+	background:black;
+	width:100vw;
+	height:auto;
+	overflow: hidden;
+}
+
+/*---------IMPORTACION AL STYLE_HEADER.CSS----------------------*/
+
+/*--------------PROGRAMACION DE LAS DISTINTAS SECCIONES JUNTO A SU ARTICULOS----------------*/
+
+/*---------------------------------SECCION VOICE---------------------------------------*/
+#section_voice{
+	position: relative;
+	background: #000;
+	width:100%;
+	height:auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#caja_titulo_voice{
+	position: absolute;
+	width: 75%;
+	height: 100px;
+	background: #FFD400;
+	border-radius:0% 30px 0px 0%;
+	left:0;
+	z-index: 2;
+}
+
+#palabra_voice{
+	position: relative;
+	margin-left: 50px;
+	top: 20px;
+}
+
+#caja_contenido_voice{
+	position: relative;
+	width: 100%;
+	height: auto;
+	background: white;
+	margin-top: 80px;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#contenido_voice_1{
+	width: 100%;
+	margin-top: 20px;
+	padding: 20px;
+}
+
+#contenido_voice_2{
+	width: 50%;
+	margin-top: 20px;
+	padding: 20px;
+
+}
+
+#imagen_voice{
+	width:30vw;
+	height:45vw;
+}
+
+/*---------------------------SECCION ANIMACION----------------------------------*/
+#section_animacion{
+	position: relative;
+	background: #000;
+	width:100%;
+	height:auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#caja_titulo_animacion{
+	position: absolute;
+	width: 75%;
+	height: 100px;
+	background: #FFD400;
+	border-radius:30px 0% 0% 0%;
+	right:0;
+	z-index: 2;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#caja_contenido_animacion{
+	position: relative;
+	width: 100%;
+	height: auto;
+	background: white;
+	margin-top: 80px;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#contenido_animacion_1{
+	width: 100%;
+	margin-top: 20px;
+	padding: 20px;
+}
+
+#contenido_animacion_2{
+	width: 50%;
+	margin-top: 20px;
+	padding: 20px;
+}
+
+#imagen_animacion{
+	width:45vw;
+	height:45vw;
+	margin-top: 30px;
+}
+
+/*-----------------------------------------SECCION EVENTOS--------------------------------*/
+#section_eventos_voice{
+	position: relative;
+	background:#000;
+	width:100%;
+	height:auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#caja_titulo_eventos_voice{
+	position: absolute;
+	width: 75%;
+	height: 100px;
+	background: #FFD400;
+	border-radius:0% 30px 0px 0%;
+	left:0;
+	z-index: 2;
+}
+
+#palabra_eventos{
+	position: relative;
+	margin-left: 50px;
+	top: 20px;
+}
+
+#caja_contenido_eventos_voice{
+	position: relative;
+	width: 100%;
+	height: auto;
+	background: white;
+	margin-top: 80px;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#contenido_eventos_1{
+	width: 100%;
+	margin-top: 20px;
+	padding: 20px;
+}
+
+#contenido_eventos_2{
+	width: 50%;
+	margin-top: 20px;
+	padding: 20px;
+
+}
+
+#imagen_eventos{
+	width:45vw;
+	height:45vw;
+}
+
+/*-------------------------PROGRAMACION Y PARAMETROS EN SECCION REDES SOCIALES-----------------*/
+
+/*--------------------------IMPORTACION AL STYLE_SOCIAL_MEDIA.CSS----------------------*/
+
+/*---------IMPORTACION AL STYLE_FOOTER.CSS---------------------------*/

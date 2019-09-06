@@ -1,0 +1,80 @@
+
+/*-------------------------RESPONSIVE PAGINA HOME IPAD HORIZONTAL-------------*/
+
+@media only screen and (min-device-width: 1024px) and (max-device-height: 1366px) 
+and (orientation: landscape){
+
+
+	#circulo{
+		width: 50vw;
+		height: 50vw;
+	}
+
+	#circulo_img{
+		width:45vw;
+	}
+
+	#nombre_img{
+		display: none;
+	}
+
+	.redes_sociales{
+		margin-top: 11px;
+	}
+
+/*-------------------------RESPONSIVE PAGINA IT IPAD HORIZONTAL-------------*/
+
+
+	.firma_responsive{
+		width:5%;
+		left: 45%;
+	}
+
+	#imagen_soporte{
+		width:15vw;
+		height:15vw;
+	}
+
+	#imagen_web{
+		width:15vw;
+		height:15vw;
+	}
+
+	#imagen_asesoria{
+		width:22vw;
+		height:22vw;
+		margin-top: -4	0px;
+		
+	}
+
+/*-------------------------RESPONSIVE PAGINA VOICE IPAD HORIZONTAL-------------*/
+
+	#imagen_voice{
+		width:10vw;
+		height:15vw;
+	}
+
+	#imagen_animacion{
+		width:18vw;
+		height:15vw;
+	}
+
+	#imagen_eventos{
+		width:15vw;
+		height:15vw;
+	}
+
+
+/*-------------------------RESPONSIVE PAGINA PORTAFOLIO IPAD HORIZONTAL-------------*/
+
+		#caja_contenido_demos{
+
+		grid-template-columns:  55% 55%;
+		grid-template-rows:11% 37% ;
+		margin: 7vh 0 12vh 4vw;
+
+		margin-top: 15%;
+	}
+
+
+}

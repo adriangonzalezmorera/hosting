@@ -1,0 +1,143 @@
+@import url('reset.css');
+*{
+	padding: 0;
+	margin: 0;
+}
+
+/*body{
+	width: 100vw;
+	height: auto;
+	
+}*/
+
+/*---------------------PROGRAMACION PAGINA HOME_MOVIL_414x736------------------*/
+.contenedor{
+	position: relative;
+	background:black;
+	width:100vw;
+	height:auto;
+	overflow: hidden;
+}
+
+/*---------IMPORTACION AL STYLE_HEADER.CSS----------------------*/
+
+/*--------------PROGRAMACION DE LAS DISTINTAS SECCIONES JUNTO A SU ARTICULOS----------------*/
+
+/*------------------SECCION SLIDE SHOW IMAGENES---------------------*/
+#section_imagenes_responsabilidad{
+	position: relative;
+	background: blue;
+	width:100%;
+	height:auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+	scroll-snap-type: mandatory;
+	scroll-snap-type: x mandatory;
+	flex-wrap: nowrap;
+	overflow-x: scroll;
+}
+
+#caja_imagenes_responsabilidad{
+	position: relative;
+	width: 100%;
+	height: auto;
+	background: white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#banner_section_imagenes_responsabilidad{
+	width:500%;
+	overflow: hidden;
+	display: flex;
+	position: relative;
+}
+
+.banner_hijos{
+	width: 100%;
+	position: relative;
+	flex: none;
+	flex-flow: row nowrap;
+	animation: fotos 30s infinite;
+	background-size: 100%;
+}
+
+/*------------------SECCION CINTILLO RESPONSABILIDAD---------------------*/
+
+#cintillo_responsabilidad{
+	position: relative;
+	background: #000;
+	width:100%;
+	height:100px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#imagen_responsabilidad{
+	width:105vw;
+	height:25vw;
+}
+
+/*------------------SECCION CONTENIDO RESPONSABILIDAD---------------------*/
+
+#section_contenido_responsabilidad{
+	position: relative;
+	background: pink;
+	width:100%;
+	height:auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#caja_contenido_responsabilidad{
+	position: relative;
+	width: 100%;
+	height: auto;
+	background: white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#contenido_responsabilidad{
+	width: 100%;
+	padding: 20px;
+}
+
+
+/*-------------------------PROGRAMACION Y PARAMETROS EN SECCION REDES SOCIALES-----------------*/
+
+/*--------------------------IMPORTACION AL STYLE_SOCIAL_MEDIA.CSS----------------------*/
+
+/*---------------------------IMPORTACION AL STYLE_FOOTER.CSS---------------------------*/
+
+
+/*---------------------------ANIMACION------------------------------------------------*/
+@keyframes fotos {
+	0%{
+		left: 0%;
+	}
+	20%{
+		left: -100%;
+	}
+	40%{
+		left: -200%;
+	}
+	60%{
+		left: -300%;
+	}
+	80%{
+		left: -400%;
+	}
+	99.9999%{
+		left: -400%;
+	}
+	100%{
+		left: 0%;
+	}
+}
